@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "2326e35e-73fd-4f45-b692-ce77546c130e",
+		"name": "CursoAngular",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9285934"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.giphy.com/v1/gifs/search?api_key=s1oXdLB97GheYh3iaWwRjdYJ4Enb0CCw&q=valorant&limit=10",
+					"host": [
+						"api",
+						"giphy",
+						"com"
+					],
+					"path": [
+						"v1",
+						"gifs",
+						"search"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "s1oXdLB97GheYh3iaWwRjdYJ4Enb0CCw"
+						},
+						{
+							"key": "q",
+							"value": "valorant"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
